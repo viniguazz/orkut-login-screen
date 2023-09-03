@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #B4D1EC;
+    padding-top: 1rem;
+}
+
+aside {
+    display: inline-block;
+    width: 28%;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+aside img {
+    width: 3.0rem;
+
+}
+
+main {
+    background-color: white;
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8.7rem;
+    padding-bottom: 2rem;
+
+}
+
+main img {
+    padding-bottom: 1rem;
+}
+
+main p {
+    font-size: 1.1rem;
+}
+
+
+
+aside > div {
+    background-color: #E2E8FD;
+    border: white solid 0.2rem;
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    border-right: 0px;
+
+}
+
+aside > div:nth-child(1) {
+    padding-bottom: 2.5rem;
+}
+
+aside > div:nth-child(2) {
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+aside > div:nth-child(2) a {
+    text-transform: uppercase;
+}
+
+
+main div:nth-child(2) {
+    margin-top: 5rem;
+}
+
+form div {
+    margin-top: 0.5rem;
+}
+
+aside div p {
+    text-align: center;
+}
+
+aside > div:first-child > p:nth-child(2) {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+form div:nth-child(3) {
+    padding-left: 10%;
+    clear: both;
+}
+
+form div:nth-child(4) {
+    padding-left: 10%;
+}
+
+form div:nth-child(4) > p {
+    text-align: left;
+}
+
+
+input[type="text"], input[type="password"] {
+    box-sizing: border-box;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    padding: 1.2rem;
+    background: linear-gradient(0deg, #b3d4f3, #ffffff);
+    color: black; 
+    padding: 0.4rem; 
+    border: 2px solid #89B1D6; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+footer {
+    clear: both;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    text-align: center;
+    background-color: #89B1D6;
+    font-size: 1.1rem;
+
+}
+
+footer > div {
+    display: inline-block;
+}
+
+footer > nav {
+    display: inline-block;
+}
+
+.fw {
+    color: #E95B95;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    main {
+        box-sizing: border-box;
+        display: block;
+        width: 90%;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        background: linear-gradient(0deg, #b3d4f3, #ffffff);
+    }
+
+    aside {
+        display: block;
+        float: none;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2rem;
+    }
+
+    aside > div {
+        border: white solid 0.2rem;
+    }
+
+    main img {
+        max-width: 100%; 
+    }
+
+    main p {
+        padding-top: 1rem;
+    }
+
+    main div:nth-child(2) {
+        margin-top: 1rem;
+    }
+
+
+
+}
